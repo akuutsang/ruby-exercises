@@ -21,6 +21,7 @@ end
 
 def uppercase(string)
   # uppercase all letters in the string
+  string.upcase
 end
 
 def downcase(string)

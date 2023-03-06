@@ -34,18 +34,18 @@ RSpec.describe 'String Exercises' do
       expect(capitalize('paris')).to eq('Paris')
     end
 
-    xit 'only capitalizes the first word if there are multiple words' do
+    it 'only capitalizes the first word if there are multiple words' do
       expect(capitalize('miami in the summer')).to eq('Miami in the summer')
     end
 
-    xit 'leaves an already capitalized word as is' do
+    it 'leaves an already capitalized word as is' do
       expect(capitalize('London')).to eq('London')
     end
   end
 
   describe 'uppercasing exercise' do
 
-    xit 'uppercases a word' do
+    it 'uppercases a word' do
       expect(uppercase('small')).to eq('SMALL')
     end
 
